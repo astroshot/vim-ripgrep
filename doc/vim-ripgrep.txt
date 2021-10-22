@@ -13,4 +13,9 @@ a split window.
     will open the |Quickfix| window for you. If [!] is not given the first
     error is jumped to.
 
+:RgRoot[!]                                                            *:RgRoot*
+
+    Display Rg search root path, default is {directory}
+
+==============================================================================
   vim:tw=78:fo=tcq2:ft=help:norl:

@@ -1,0 +1,6 @@
+tags
+*.tgz
+**/*.swp
+
+**/.DS_Store
+
