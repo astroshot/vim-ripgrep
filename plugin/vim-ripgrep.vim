@@ -159,3 +159,5 @@ endfun
 
 command! -nargs=* -complete=file Rg :call s:Rg(<q-args>)
 command! -complete=file RgRoot :call s:RgShowRoot()
+command! -complete=file RgHelp :call s:RgHelp()
+
