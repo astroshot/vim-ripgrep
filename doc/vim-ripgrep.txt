@@ -17,5 +17,9 @@ a split window.
 
     Display Rg search root path, default is {directory}
 
+:RgHelp[!]                                                            *:RgHelp*
+
+    Display help info of rg.
+
 ==============================================================================
   vim:tw=78:fo=tcq2:ft=help:norl:
