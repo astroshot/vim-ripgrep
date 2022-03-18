@@ -157,7 +157,12 @@ fun! s:RgHelp()
   call s:Rg('--help')
 endfun
 
+fun! s:TrimAll()
+  exec('%s/\s\+$//g')
+endfun
+
 command! -nargs=* -complete=file Rg :call s:Rg(<q-args>)
 command! -nargs=* -complete=file RgRoot :call s:RgShowRoot()
 command! -nargs=* -complete=file RgHelp :call s:RgHelp()
+command! -nargs=* -complete=file TrimAll :call s:TrimAll()
 
